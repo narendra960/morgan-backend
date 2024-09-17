@@ -28,4 +28,4 @@ jobs:
     - run: npm run build
     - run: |
         touch .env
-        echo "${{ secrects.PROD_ENV_FILE }}" > .env
+        echo "${{ secrets.PROD_ENV_FILE }}" > .env
