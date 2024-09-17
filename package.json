@@ -5,8 +5,7 @@
   "author": "",
   "private": true,
   "license": "UNLICENSED",
-  "scripts": {
-    "prebuild": "rimraf dist",
+  "scripts": { 
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "node dist/src/main.js",
